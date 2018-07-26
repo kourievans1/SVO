@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <link rel="stylesheet" type="text/css" href="mySyle.css" >
+     <title>SHOEOLOGIST</title>
+   </head>
+   <style>
+
+   body {
+       background-color: red;
+   }
+   h1 {
+       color: black;
+       text-align: center;
+   }
+   p {
+       font-family: verdana;
+       font-size: 20px;
+   }
+
+   img {
+     height: 345px;
+     width: 420px;
+   }
+   </style>
+     <body>
+        <form> 
+         <input class="search" placeholder="Search Sneaker" required>
+         <span class="arrow">
+           <input type="button" class="button" value="Search">
+           </span>
+       </form>
+
+       <script src="my_script.js"></script>
+<script src="style.js"></script>
+<h1>Shoeoloigst!</h1>
+<p> We evaluate different types of shoes that players use on court</P>
+<h2>Popular shoes</h2>
+<p> These are popular shoes that athletes wear on court when it's time to hoop!</p>
+<ol>
+<li style="font-size: 20px";>Flu game 12's</li>
+<a href="flugames.html">
+  <img src="https://images.solecollector.com/complex/image/upload/odlnfl5pgly1bl9w65q4.jpg" ></a>
+<li style="font-size: 20px";>Last shot 14's</li>
+<a href="lastshots.html">
+   <img src="https://cdn5.kicksonfire.com/wp-content/uploads/2018/05/air-jordan-14-last-shot-2.png?x76107" ></a>
+<li style="font-size: 20px";> Nike Air Flightposite The Future PE <br>
+<a href="flightposite.html">
+   <img src="https://i.pinimg.com/originals/82/cd/b7/82cdb761387220b5cbcbd93e70e68d33.jpg"> </a>
+<li style="font-size: 20px";>Reebok Answer IV</li>
+<a href="reebok.html">
+   <img src="https://cdn.runrepeat.com/i/reebok/26503/reebok-answer-iv-black-rivet-grey-excellent-red-50cc-600.jpg"></a>
+<li style="font-size: 20px";>Nike Air Zoom Huarache 2K4</li>
+<a href="hurrachezoom.html">
+   <img src="https://www.zjiel.com/dshoes/image/cache/data/category_9/4027pro-800x800.jpg" ></a>
+</ol>
+</html>
